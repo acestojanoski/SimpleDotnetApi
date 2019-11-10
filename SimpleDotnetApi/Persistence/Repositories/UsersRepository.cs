@@ -20,7 +20,7 @@ namespace SimpleDotnetApi.Persistence.Repositories
         public async Task<IRestResponse> GetUsers()
         {
             IRestRequest request = new RestRequest(_configuration["UsersUrl"], Method.GET);
-            IRestResponse response = _client.Execute(request);
+            IRestResponse response = await _client.ExecuteTaskAsync(request);
             return response;
         }
     }
