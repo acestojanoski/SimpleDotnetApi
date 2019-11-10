@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 using RestSharp;
-using SimpleDotnetApi.Domain.Models;
-using SimpleDotnetApi.Domain.Repositories;
-using SimpleDotnetApi.Domain.Services;
+using Domain.Models;
+using Domain.Repositories;
+using Domain.Services;
 using System.Threading.Tasks;
 
 namespace SimpleDotnetApi.Services

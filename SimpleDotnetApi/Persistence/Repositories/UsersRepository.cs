@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 using RestSharp;
-using SimpleDotnetApi.Domain.Repositories;
+using Domain.Repositories;
 using System;
 using System.Threading.Tasks;
 

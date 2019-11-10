@@ -1,7 +1,7 @@
-﻿using SimpleDotnetApi.Domain.Models;
+﻿using Domain.Models;
 using System.Threading.Tasks;
 
-namespace SimpleDotnetApi.Domain.Services
+namespace Domain.Services
 {
     public interface IUsersService
     {

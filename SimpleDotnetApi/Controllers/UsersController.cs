@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using SimpleDotnetApi.Domain.Services;
+using Domain.Services;
 
 namespace SimpleDotnetApi.Controllers
 {

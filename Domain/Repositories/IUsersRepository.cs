@@ -1,7 +1,7 @@
 ﻿using RestSharp;
 using System.Threading.Tasks;
 
-namespace SimpleDotnetApi.Domain.Repositories
+namespace Domain.Repositories
 {
     public interface IUsersRepository
     {

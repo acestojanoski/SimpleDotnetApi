@@ -1,4 +1,4 @@
-﻿namespace SimpleDotnetApi.Domain.Models
+﻿namespace Domain.Models
 {
     public class StatusCodeModel
     {
