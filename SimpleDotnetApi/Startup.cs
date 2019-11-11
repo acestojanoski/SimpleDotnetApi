@@ -3,11 +3,12 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Domain.Repositories;
-using SimpleDotnetApi.Persistence.Repositories;
+using Persistence.Repositories;
 using Domain.Services;
 using SimpleDotnetApi.Services;
 using RestSharp;
 using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Http;
 
 namespace SimpleDotnetApi
 {
@@ -55,6 +56,11 @@ namespace SimpleDotnetApi
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+
+                endpoints.MapGet("/api/ping", async context =>
+                {
+                    await context.Response.WriteAsync("pong");
+                });
             });
         }
     }

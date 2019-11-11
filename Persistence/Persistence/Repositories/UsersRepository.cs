@@ -4,7 +4,7 @@ using Domain.Repositories;
 using System;
 using System.Threading.Tasks;
 
-namespace SimpleDotnetApi.Persistence.Repositories
+namespace Persistence.Repositories
 {
     public class UsersRepository : IUsersRepository
     {

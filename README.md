@@ -7,7 +7,7 @@ Simple .NET Core API, used for experiments.
 ```
 git clone https://github.com/acestojanoski/SimpleDotnetApi.git
 cd SimpleDotnetApi
-dotnet restore SimpleDotnetApi
-dotnet build SimpleDotnetApi
+dotnet restore
+dotnet build
 dotnet run -p SimpleDotnetApi
 ```
