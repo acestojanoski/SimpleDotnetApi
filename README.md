@@ -6,8 +6,8 @@ Simple .NET Core API, used for experiments.
 
 Using Powershell:
 ```
-git clone https://github.com/acestojanoski/SimpleDotnetApi.git && \
-    cd SimpleDotnetApi && \
+git clone https://github.com/acestojanoski/SimpleDotnetApi.git; `
+    cd SimpleDotnetApi; `
     ./run.ps1
 ```
 
